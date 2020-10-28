@@ -1,7 +1,7 @@
 header.jumbotron {
-  background: linear-gradient(rgba(39, 111, 49, 0.45), rgba(39, 111, 49, 0.45));
-  /* background-image: url(./images/fiber-optic-lights-1024x300.jpg); */
+  background: linear-gradient(rgba(82, 76, 174, 0.918), rgba(14, 45, 19, 0.755)), url(./images/fiber-optic-lights-1024x300.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  color: white;
 }
 
