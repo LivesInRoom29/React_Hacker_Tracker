@@ -1,48 +1,5 @@
 import React from "react";
-
-//generic sort function - to go into utilities
-// Is there a better way to do with where some are in nested objects?
-const sortArray = (array, column, direction) => {
-  // make a shallow copy of the data to sort
-  let stortedArr = [...array];
-
-  if (column !== null) {
-    if (column === "name") {
-      stortedArr.sort((a, b) => {
-        if (a[column].last < b[column].last) {
-          return direction === "ascending" ? -1 : 1;
-        } else if (a[column].last > b[column].last) {
-          return direction === "ascending" ? 1 : -1;
-        } else {
-          return 0;
-        }
-      });
-    }
-
-    if (column === "email") {
-      stortedArr.sort((a, b) => {
-        if (a[column] < b[column]) {
-          return direction === "ascending" ? -1 : 1;
-        } else if (a[column] > b[column]) {
-          return direction === "ascending" ? 1 : -1;
-        } else {
-          return 0;
-        }
-      });
-    }
-
-    if (column === "dob") {
-      stortedArr.sort((a, b) => {
-        const difference = new Date(a.dob.date) - new Date (b.dob.date);
-        return direction === "ascending" ? difference : -difference;
-      });
-    }
-  }
-
-  return stortedArr;
-}
-
-
+import SortArray from "../utils/SortArray";
 
 function EmployeeTable(props) {
   const { employees } = props;
@@ -63,7 +20,7 @@ function EmployeeTable(props) {
     setSortConfig({ key, direction });
   }
 
-  const sortedEmployees = sortArray(employees, sortConfig.key, sortConfig.direction);
+  const sortedEmployees = SortArray(employees, sortConfig.key, sortConfig.direction);
 
   return (
     <table className="table table-striped">
