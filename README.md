@@ -19,7 +19,7 @@ A searchable, sortable employee directory built with React.
 
 
 ## Installation
-To install the necessary dependencies locally, run:
+To install the necessary dependencies locally, go to the directory hacker-tracker inside the root folder and run:
 ```
 npm install
 ```
