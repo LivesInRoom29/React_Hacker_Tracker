@@ -29,14 +29,20 @@ function EmployeeTable(props) {
         <tr>
           <th scope="col">Picture</th>
           <th scope="col">
-            <button type="button" onClick={() => requestSort("name")}>Name</button>
+            <button type="button" onClick={() => requestSort("name")}>
+              Name  <i class="fas fa-sort"></i>
+            </button>
           </th>
           <th scope="col">Phone</th>
           <th scope="col">
-            <button type="button" onClick={() => requestSort("email")}>Email</button>
+            <button type="button" onClick={() => requestSort("email")}>
+              Email  <i class="fas fa-sort"></i>
+            </button>
           </th>
           <th scope="col">
-            <button type="button" onClick={() => requestSort("dob")}>DOB</button>
+            <button type="button" onClick={() => requestSort("dob")}>
+              DOB  <i class="fas fa-sort"></i>
+            </button>
           </th>
         </tr>
       </thead>
