@@ -1,7 +1,30 @@
+form {
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
 header.jumbotron {
   background: linear-gradient(rgba(82, 76, 174, 0.918), rgba(14, 45, 19, 0.755)), url(./images/fiber-optic-lights-1024x300.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
+  max-height: 300px;
 }
 
+/* for the search bar */
+div.form-group {
+  justify-content: center;
+}
+
+label.search {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+/* For the buttons on the table header, used for sorting */
+button.sortbtn {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-weight: bold;
+  border: none;
+}
