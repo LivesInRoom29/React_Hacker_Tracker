@@ -21,7 +21,7 @@ function EmployeeTable(props) {
 
   const sortedEmployees = SortArray(employees, sortConfig.key, sortConfig.direction);
 
-  
+
   return (
     <table className="table table-striped">
       <caption>Our Employees</caption>
@@ -29,18 +29,18 @@ function EmployeeTable(props) {
         <tr>
           <th scope="col">Picture</th>
           <th scope="col">
-            <button type="button" onClick={() => requestSort("name")}>
+            <button className="sortbtn" type="button" onClick={() => requestSort("name")}>
               Name  <i className="fas fa-sort"></i>
             </button>
           </th>
           <th scope="col">Phone</th>
           <th scope="col">
-            <button type="button" onClick={() => requestSort("email")}>
+            <button className="sortbtn" type="button" onClick={() => requestSort("email")}>
               Email  <i className="fas fa-sort"></i>
             </button>
           </th>
           <th scope="col">
-            <button type="button" onClick={() => requestSort("dob")}>
+            <button className="sortbtn" type="button" onClick={() => requestSort("dob")}>
               DOB  <i className="fas fa-sort"></i>
             </button>
           </th>
@@ -55,7 +55,7 @@ function EmployeeTable(props) {
           const dateDOB = new Date(dob.date).toLocaleDateString();
           return (
             <tr key={email}>
-              <td><img src={picture.large} alt={fullName} /></td>
+              <td><img src={picture.medium} alt={fullName} /></td>
               <td>{fullName}</td>
               <td>{phone}</td>
               <td>{email}</td>
