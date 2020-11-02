@@ -4,7 +4,7 @@
 ## Description
 A searchable, sortable employee directory built with React.
 
-[Link to Deployed Project](linkToCom)
+[Link to Deployed Project](https://livesinroom29.github.io/React_Hacker_Tracker/)
 
 ### Demo
 ![Hacker Tracker Demo](hacker_tracker.gif)
@@ -19,7 +19,7 @@ A searchable, sortable employee directory built with React.
 
 
 ## Installation
-To install the necessary dependencies locally, go to the directory hacker-tracker inside the root folder and run:
+To install the necessary dependencies locally, run:
 ```
 npm install
 ```
