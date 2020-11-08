@@ -4,7 +4,7 @@
 ## Description
 A searchable, sortable employee directory built with React.
 
-[Link to Deployed Project](linkToCom)
+[Link to Deployed Project](https://livesinroom29.github.io/React_Hacker_Tracker/)
 
 ### Demo
 ![Hacker Tracker Demo](hacker_tracker.gif)
