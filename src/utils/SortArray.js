@@ -39,3 +39,10 @@ const SortArray = (array, column, direction) => {
 }
 
 export default SortArray;
+
+//name.last --> array and recursively look through the object
+//check out lodash
+// https://stackoverflow.com/questions/40603913/search-recursively-for-value-in-object-by-property-name
+// if a[column] is an object, call the fxn again on a[a[column]]
+// otherwise return a[column]
+//something like that maybe?
