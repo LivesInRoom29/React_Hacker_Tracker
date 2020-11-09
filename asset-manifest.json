@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React_Hacker_Tracker/static/css/main.a467e021.chunk.css",
+    "main.js": "/React_Hacker_Tracker/static/js/main.51dedc1b.chunk.js",
+    "main.js.map": "/React_Hacker_Tracker/static/js/main.51dedc1b.chunk.js.map",
+    "runtime-main.js": "/React_Hacker_Tracker/static/js/runtime-main.daa70867.js",
+    "runtime-main.js.map": "/React_Hacker_Tracker/static/js/runtime-main.daa70867.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/React_Hacker_Tracker/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.003d572c.chunk.js": "/React_Hacker_Tracker/static/js/2.003d572c.chunk.js",
+    "static/js/2.003d572c.chunk.js.map": "/React_Hacker_Tracker/static/js/2.003d572c.chunk.js.map",
+    "static/js/3.c6528b28.chunk.js": "/React_Hacker_Tracker/static/js/3.c6528b28.chunk.js",
+    "static/js/3.c6528b28.chunk.js.map": "/React_Hacker_Tracker/static/js/3.c6528b28.chunk.js.map",
+    "index.html": "/React_Hacker_Tracker/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/React_Hacker_Tracker/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.a467e021.chunk.css.map": "/React_Hacker_Tracker/static/css/main.a467e021.chunk.css.map",
+    "static/js/2.003d572c.chunk.js.LICENSE.txt": "/React_Hacker_Tracker/static/js/2.003d572c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/React_Hacker_Tracker/static/media/fiber-optic-lights-1024x300.b78fbe58.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.daa70867.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.003d572c.chunk.js",
+    "static/css/main.a467e021.chunk.css",
+    "static/js/main.51dedc1b.chunk.js"
+  ]
+}
